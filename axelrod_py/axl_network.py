@@ -6,7 +6,7 @@ import numpy as np
 import warnings 
 from axl_agent import *
 
-libc = C.CDLL(os.getcwd() + '/libc.so')
+libc = C.CDLL(os.getcwd() + '/axelrod_py/libc.so')
 
 class Axl_network(nx.Graph, C.Structure):
 
