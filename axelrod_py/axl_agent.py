@@ -2,7 +2,7 @@ import os
 import ctypes as C
 import random as rand
 
-libc = C.CDLL(os.getcwd() + '/axelrod_py/libc.so')
+libc = C.CDLL(os.getcwd() + '/libc.so')
 
 class Axl_agent(C.Structure):
 
